@@ -1,5 +1,5 @@
-#RSSchool CV<br>
-##CV#1. Markdown & Git<br>
+# RSSchool CV<br>
+## CV#1. Markdown & Git<br>
 
 - Add public repository
 - Create CV file with markdown formatting
