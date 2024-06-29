@@ -4,6 +4,7 @@
 
 **Email:** tpolet2000@gmail.com<br>
 **LinkedIn:** [Tatiana Poletaeva](https://www.linkedin.com/in/tatiana-poletaeva-aa31b71b3)<br>
+**GitHub:** [tpolet](https://github.com/tpolet)<br>
 
 ## About me:<br>
 I am currently working as Power Platform developer for 4 years. Mostly my work is connected to developing low-code solutions using Power platform. I often face situations, where our team need to come up with a workaround or performance improvements, so it helps me to train non standart and logical thinking. <br>
@@ -32,7 +33,7 @@ Date | Certificate | Issued by:
 ## Code example:<br>
 One of the old university lab code:<br>
 
-`try {
+```try {
             File fr = new File("data.txt");
             Scanner in = new Scanner(fr);
             while (in.hasNext()) {
@@ -46,7 +47,7 @@ One of the old university lab code:<br>
         catch (Exception e){
             JOptionPane.showMessageDialog(null, "Неверные данные", "Ввод из файла",
                     JOptionPane.ERROR_MESSAGE);
-        }`
+        }```
 <br>
 
 ## Work Experience:<br>
