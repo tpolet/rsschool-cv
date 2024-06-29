@@ -33,7 +33,7 @@ Date | Certificate | Issued by:
 ## Code example:<br>
 One of the old university lab code:<br>
 
-```try {
+``` try {
             File fr = new File("data.txt");
             Scanner in = new Scanner(fr);
             while (in.hasNext()) {
@@ -47,7 +47,7 @@ One of the old university lab code:<br>
         catch (Exception e){
             JOptionPane.showMessageDialog(null, "Неверные данные", "Ввод из файла",
                     JOptionPane.ERROR_MESSAGE);
-        }```
+        } ```
 <br>
 
 ## Work Experience:<br>
