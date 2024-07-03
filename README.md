@@ -6,3 +6,12 @@
 - Add at least 3 commits according to the guidelines
 
 Link to the task: [https://tpolet.github.io/rsschool-cv/cv](https://tpolet.github.io/rsschool-cv/cv)<br>
+
+
+## CV#2. HTML, CSS & Git Basics<br>
+
+- Create new branch
+- Create index and style files
+- Create pull request
+
+Link to the task: [https://tpolet.github.io/rsschool-cv/](https://tpolet.github.io/rsschool-cv/)<br>
