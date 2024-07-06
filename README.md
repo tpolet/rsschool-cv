@@ -15,3 +15,11 @@ Link to the task: [https://tpolet.github.io/rsschool-cv/cv](https://tpolet.githu
 - Create pull request
 
 Link to the task: [https://tpolet.github.io/rsschool-cv/](https://tpolet.github.io/rsschool-cv/)<br>
+
+
+## CV#3. CV. Cross-Check<br>
+
+- Create CV in html/css 
+- Create pull request
+
+Link to the task: [https://tpolet.github.io/rsschool-cv/](https://tpolet.github.io/rsschool-cv/)<br>
