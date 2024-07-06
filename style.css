@@ -1,0 +1,235 @@
+:root {
+    --main-color-light: #e5c3b7;
+    --main-color-dark: #9d6771;
+    --main-color-nutral: #a78e7e;
+    --main-color-accent: #d68e8d;
+    --main-color-body: #786b6f;
+    --main-color-font: Playfair Display, serif;
+}
+#accent{
+    color:var(--main-color-accent);
+    font-weight: 700px;
+}
+.accent_bold{
+    font-weight: 900;
+}
+html {
+    scroll-behavior: smooth;
+}
+section{
+    padding: 0;
+    margin:0;
+}
+body {
+    color: #000000;
+    font-family: var(--main-color-font);
+    font-size: 14px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600px;
+    margin-top: 10px;
+    padding: 0;
+    margin-bottom: 0;
+    text-decoration: underline;
+    text-decoration-color: var(--main-color-accent);
+}
+h2 {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 600px;
+    margin-top: 5px;
+    border-bottom: 2px solid var(--main-color-accent);
+    padding-bottom: 3px;
+    color:var(--main-color-accent);
+}
+h3 {
+    padding: 0px;
+    font-size: 20px;
+    font-weight: 500px;
+    margin-top: 5px;
+    font-style: oblique;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700px;
+    padding: 5px 40px;
+    margin: 0;
+}
+div{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+ul{
+    margin: 0;
+}
+li{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+footer {
+    min-height: 40px;
+    max-height: 80px;
+    padding: 4px;
+    background-color: var(--main-color-light);
+    opacity: 0.6;
+    text-align: center;
+  
+}
+pre{
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    white-space: pre-wrap;
+}
+p{
+    text-indent: 20px;
+    padding: 0px 20px;
+    margin: 0;
+}
+.menu{
+    list-style-type: none;
+    text-align: center;
+}
+.menu_li{
+    display: inline;
+    text-decoration: underline;
+}
+table{
+    padding-left: 25px;
+    padding-right: 20px;
+}
+td{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+a {
+    outline-color: transparent;
+    text-decoration: none;
+    color:var(--main-color-body);
+  }
+  
+  a:focus {
+    color: var(--main-color-accent);
+  }
+  
+  a:hover {
+    color: var(--main-color-dark);
+  }
+  
+  a:active {
+    color: var(--main-color-accent);
+  }
+  .a_footer{
+    font-style: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+.info_text{
+    color:var(--main-color-body);
+}
+
+.list_without_numbers{
+    list-style-type: none;
+}
+.logo_footer{
+    height: 18px;
+    width: 48px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.icon {
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+}
+.profile_photo_container{
+   position: relative;
+}
+
+.profile_photo{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.photo_border{
+    width: 200px;
+    height: 200px;
+    border: 5px solid var(--main-color-accent);
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 40%;
+}
+
+.container_main_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.container_main_left {
+    width: 30%;
+    flex-grow: 1;
+    padding: 12px;
+    min-width: 400px;
+    background-color: var(--main-color-light) ;
+}
+
+.container_main_right {
+    width: 50%;
+    flex-grow: 1;
+    padding: 12px;
+}
+
+.bubble{
+    top: 2px;
+    left: 27%;
+    z-index: 3;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:var(--main-color-dark) ;
+    opacity: 0.8;
+}
+
+.bubble_empty{
+    top: -150px;
+    left: -150px;
+    z-index: 1;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color:var(--main-color-nutral);
+    border: 8px solid var(--main-color-nutral);
+    opacity: 0.8;
+}
+.bubble_small{
+    top: 160px;
+    left: 37%;
+    z-index: 3;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:var(--main-color-accent);
+    opacity: 0.8;
+}
+
+
+
